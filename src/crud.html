@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+  </head>
+  <body>
+<header>
+<br><br><br>
+      <h1>Create your top favourite recipes list!</h1><br><br><br>
+      
+      <form>
+        <div class="form-group">
+          <p>Enter your name: </p>
+          <input id="fileName" type="text" class="form-control">
+        </div><br>
+
+      <div class="form-group">
+        <p>Enter your favourite recipes:</p>
+        <p><b>For example : </b>Peanut butter cheesecake, Batternberg Cake, ...</p>
+        <textarea id="fileContents" class="form-control" rows="5"></textarea>
+      </div><br>
+
+      </form>
+
+      <div>
+        <button id="btnCreate" class="btn">Create</button>
+        <button id="btnRead" class="btn">Read</button>
+        <button id="btnDelete" class="btn">Delete</button>
+        <button id="btnUpdate" class="btn">Update</button>
+      </div>
+
+      <button onclick="goToIndexPage()">Return to Homepage</button>
+
+    </header>
+
+    <footer>
+      <span><a href="https://youtube.com/@nahlahrsl?si=5ataKv7m9eMxtz-r">Youtube </a></span>
+      <span><a href="https://www.facebook.com/nahlahrsl">Facebook </a></span>
+      <span><a href="https://www.tiktok.com/@nahlahrsl?_t=8hE1J3xAPUQ&_r=1">TikTok </a></span><br><br>
+      <span>&copy; Z's Cooperation Enterprise</span>
+  </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- Include Font Awesome CSS -->
+</head>
+<body>
+    <header> <!-- header -->
+        <h1>✿     Z's Kitchen     ✿</h1>
+        <h3>The Heaven of Recipes</h3>
+
+        <nav class = "navbar">
+            <div class = "navbar-nav">
+                <a href = "about.html">About Us |</a>
+                <a href = "help.html">Help </a>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    
+    <main> <!-- main program -->
+        <section id="search-section">
+            <label for="mealInput">Enter a meal:</label>
+            <input type="text" id="mealInput" placeholder="e.g. egg">
+            <button id="searchBtn">&#128269;</button>
+            <button onclick="goToCRUDPage()">Create Top Recipe List</button>
+        </section>
+
+        <section id="results-section">
+            <div id="mealResults"></div>
+            <div id="mealRecipe" style="display: none;"></div>
+        </section>
+    </main><br><br><br><br><br><br><br>
+
+    <footer> <!-- Footer Section -->
+        <span><a href="https://youtube.com/@nahlahrsl?si=5ataKv7m9eMxtz-r">Youtube </a></span>
+        <span><a href="https://www.facebook.com/nahlahrsl">Facebook </a></span>
+        <span><a href="https://www.tiktok.com/@nahlahrsl?_t=8hE1J3xAPUQ&_r=1">TikTok </a></span><br><br>
+        <span>&copy; Z's Cooperation Enterprise</span>
+    </footer>
+    <script src="fetchAPI.js"></script>
+</body>
+</html>
